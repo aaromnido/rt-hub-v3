@@ -1,0 +1,26 @@
+---
+import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+
+interface Props {
+	title: string;
+	excerpt: string;
+	imageUrl: string;
+	updatedAt: string;
+}
+
+const { imageUrl, title, excerpt, updatedAt } = Astro.props;
+---
+
+<div class="card-item light-card">
+    <div class="image" style={'background-image: url(' + imageUrl + ')'}></div>
+    <div class="container">
+        <p class="article-date uppercase text-sm mb-3">{updatedAt}</p>
+        <h4 class="article-title">{title}</h4>
+        <p class="article-description mt-3 text-sm h-24">{excerpt}</p>
+        <a class="secondary-button secondary-button-white secondary-button-outlined w-full"
+            href="{{ route('news.view', ['slug' => $article->slug]) }}">
+            View More <ArrowSmallRight class="w-6 h-6" />
+        </a>
+    </div>
+  </div>
+  

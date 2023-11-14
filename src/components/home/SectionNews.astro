@@ -1,0 +1,45 @@
+---
+// Components
+import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+import SectionHeader from '../SectionHeader.astro';
+import CardLightVertical from '../CardLightVertical.astro';
+import Card from '../Card.astro';
+
+let items = [];
+for (let i = 1; i <= 3; i++) {
+  items.push(`Item ${i}`);
+}
+---
+
+<section class="section news-section light-theme">
+    <div class="section-container">
+        <div class="section-wrapper">
+
+			<SectionHeader
+				title="Trending <strong>Stories</strong> & Insights"
+				subtitle="Stay ahead of the curve with the latest buzz and expert takes"
+			/>
+
+            <!-- Grid -->
+            <div class="cards-grid">
+                
+                {items.map((item) => (
+                    <CardLightVertical
+                        imageUrl="/images/articles-picture-dummy.png"
+                        title="Canceled PS2 Daredevil Game Now Playable 20 Years Later"
+                        updatedAt="NOV 12 2023"
+                        excerpt="Hidden Palace has released a new build of the long-lost superhero game."
+                    />
+                ))}
+
+            </div><!-- / Grid -->
+
+            <footer class="section-footer">
+                <a class="secondary-button" href="{{ route('news.index') }}">
+                    Browse all Articles <ArrowSmallRight class="w-6 h-6" />
+                </a><!-- / Button -->
+            </footer><!-- / Footer -->
+
+        </div><!-- Wrapper -->
+     </div><!-- / Container -->
+</section><!-- / Courses section -->
