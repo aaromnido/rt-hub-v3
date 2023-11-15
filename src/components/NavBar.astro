@@ -1,0 +1,51 @@
+---
+// Components
+import MenuDesktop from '../components/MenuDesktop.astro';
+import MenuMobile from '../components/MenuMobile.astro';
+---
+
+<header class="section section-container section-navbar">
+    <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+
+        <div class="flex items-center justify-between">
+
+            <a class="flex-none" href="/">
+                <img src="/images/rthub-logo-white.svg" alt="RT-HUB" width="136">
+            </a><!-- / Logo -->
+
+            <div class="sm:hidden">
+                <button id="button-mobile-menu" type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium" data-hs-collapse="#navbar-image-1" aria-controls="navbar-image-1" aria-label="Toggle navigation">
+                  <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+                  <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </button>
+              </div><!-- / Hamburger button -->
+              
+        </div><!-- / Left -->
+
+        <div id="navbar-desktop" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
+            <div class="flex flex-col gap-10 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5 text-sm">
+                <MenuDesktop />
+            </div>
+        </div>
+        <!-- / Menu -->
+
+    </nav>
+
+
+</header>
+
+<div id="navbar-mobile" class="absolute hidden h-full w-full bg-brand-dark" style="z-index: 999999">
+    <nav class="block text-right p-20">
+        <MenuMobile />
+    </nav>
+</div>
+<script>
+    document.getElementById('button-mobile-menu').addEventListener('click', function() {
+        var navbar = document.getElementById('navbar-mobile');
+        navbar.classList.toggle('hidden');
+    });
+</script>

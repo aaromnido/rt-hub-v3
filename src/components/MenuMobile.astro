@@ -1,0 +1,67 @@
+---
+// Components
+import MenuLink from '../components/MenuLink.astro';
+---
+<ul>
+    <li class="mb-10">
+        <MenuLink
+        style="text-2xl active";
+        url="/";
+        id="home";
+        name="Home";
+    />
+    </li>
+    <li class="mb-10">
+        <MenuLink
+        style="text-2xl";
+        url="courses";
+        id="courses";
+        name="Courses";
+    />
+    </li>
+    <li class="mb-10">
+        <MenuLink
+        style="text-2xl";
+        url="showcases";
+        id="showcases";
+        name="Showcases";
+    />
+    </li>
+    <li class="mb-10">
+        <MenuLink
+        style="text-2xl";
+        url="studios";
+        id="studios";
+        name="Studios Map";
+    />
+    </li>
+    <li class="mb-10">
+        <MenuLink
+        style="text-2xl";
+        url="news";
+        id="news";
+        name="News";
+    />
+    </li>
+    <li class="mb-10">
+        <MenuLink
+        style="text-2xl";
+        url="events";
+        id="events";
+        name="Events";
+    />
+    </li>
+    <li class="mb-10">
+        <MenuLink
+        style="text-2xl";
+        url="mailto:info@ut-hub.com?subject=Information request";
+        id="contact";
+        name="Contact us";
+    />
+    <li class="mb-10">
+        <a
+            class="text-2xl outlined-button font-medium py-3 px-8 inline-flex justify-center items-center gap-2 rounded-full border"
+            href="/admin">
+            Sign in
+        </a>
+    </li>
