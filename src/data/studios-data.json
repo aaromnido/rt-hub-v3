@@ -1,0 +1,132 @@
+[
+    {
+        "city": "Madrid",
+        "country": "Spain",
+        "lat": 40.4168,
+        "long": -3.7038,
+        "studio": "MadridFX Studios",
+        "address": "Calle de Alcalá, 15, 28014 Madrid, Spain",
+        "description": "MadridFX Studios is a top-notch visual effects and animation studio located in the heart of Madrid. We specialize in creating stunning visuals that tell compelling stories.",
+        "tags": ["Chroma", "LED Volume Set"]
+    },
+    {
+        "city": "Zaragoza",
+        "country": "Spain",
+        "lat": 41.6488,
+        "long": -0.8891,
+        "studio": "Magic Fennec",
+        "address": "Avda María Zambrano 31 Torre Este - Planta 1 - WTCZ 50018",
+        "description": "Magic Fennec is a cutting-edge digital studio based in Zaragoza, offering a range of visual effects, animation, and digital services.",
+        "tags": ["Stage", "LED Volume Set", "Chroma"]
+    },
+    {
+        "city": "Barcelona",
+        "country": "Spain",
+        "lat": 41.3851,
+        "long": 2.1734,
+        "studio": "BarcaRT Studios",
+        "address": "Carrer de Balmes, 132, 08008 Barcelona, Spain",
+        "description": "BarcaRT Studios is a well-established studio in Barcelona, known for its innovative approach to digital animation and visual effects.",
+        "tags": ["LED Volume Set", "Stage"]
+    },
+    {
+        "city": "London",
+        "country": "United Kingdom",
+        "lat": 51.5074,
+        "long": -0.1278,
+        "studio": "London Visual Labs",
+        "address": "221B Baker Street, London NW1 6XE, United Kingdom",
+        "description": "London Visual Labs is a pioneering studio in the UK's visual effects industry, delivering a wide range of services in film, television, and advertising.",
+        "tags": ["Chroma", "Stage"]
+    },
+    {
+        "city": "Paris",
+        "country": "France",
+        "lat": 48.8566,
+        "long": 2.3522,
+        "studio": "ParisFX Studios",
+        "address": "12 Rue de la Pompe, 75116 Paris, France",
+        "description": "ParisFX Studios is a premier visual effects and animation studio located in the artistic heart of Paris, providing innovative solutions for a wide range of media projects.",
+        "tags": ["LED Volume Set", "Chroma"]
+    },
+    {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "lat": 52.3676,
+        "long": 4.9041,
+        "studio": "AmsterRT Labs",
+        "address": "Herengracht 282, 1016 BX Amsterdam, Netherlands",
+        "description": "AmsterRT Labs is a state-of-the-art studio in Amsterdam, dedicated to delivering high-quality visual effects, animation, and digital production services.",
+        "tags": ["Stage", "LED Volume Set"]
+    },
+    {
+        "city": "New York",
+        "country": "United States",
+        "lat": 40.7128,
+        "long": -74.0060,
+        "studio": "NYC Visual Studios",
+        "address": "30 Rockefeller Plaza, New York, NY 10112, United States",
+        "description": "NYC Visual Studios is a leading visual effects and animation studio based in New York City, committed to pushing the boundaries of digital storytelling.",
+        "tags": ["Chroma", "Stage"]
+    },
+    {
+        "city": "New Orleans",
+        "country": "United States",
+        "lat": 29.9511,
+        "long": -90.0715,
+        "studio": "NOLA Film Factory",
+        "address": "123 Bourbon Street, New Orleans, LA 70116, United States",
+        "description": "NOLA Film Factory is a renowned studio in New Orleans, providing a creative hub for filmmakers and artists to bring their visions to life.",
+        "tags": ["LED Volume Set", "Stage"]
+    },
+    {
+        "city": "Austin",
+        "country": "United States",
+        "lat": 30.2672,
+        "long": -97.7431,
+        "studio": "AustinRT Labs",
+        "address": "200 Congress Avenue, Austin, TX 78701, United States",
+        "description": "AustinRT Labs is a dynamic visual effects studio in Austin, known for its cutting-edge technology and highly skilled team of artists.",
+        "tags": ["Chroma", "LED Volume Set"]
+    },
+    {
+        "city": "Los Angeles",
+        "country": "United States",
+        "lat": 34.0522,
+        "long": -118.2437,
+        "studio": "LA Film Factory",
+        "address": "100 Universal City Plaza, Los Angeles, CA 91608, United States",
+        "description": "LA Film Factory is a powerhouse of creativity and technical excellence, providing world-class visual effects, animation, and post-production services.",
+        "tags": ["Stage", "Chroma"]
+    },
+    {
+        "city": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "long": -122.4194,
+        "studio": "SF Visual Studios",
+        "address": "1 Market Street, San Francisco, CA 94105, United States",
+        "description": "SF Visual Studios is a forward-thinking studio in San Francisco, delivering exceptional visual effects and animation solutions for a global clientele.",
+        "tags": ["LED Volume Set", "Stage"]
+    },
+    {
+        "city": "Bogotá",
+        "country": "Colombia",
+        "lat": 4.7100,
+        "long": -74.0721,
+        "studio": "BogotaRT Studios",
+        "address": "Avenida de los Alamos, Bogotá, BG 238701, Colombia",
+        "description": "BogotaRT Studios is a dynamic visual effects studio in Austin, known for its cutting-edge technology and highly skilled team of artists.",
+        "tags": ["Chroma", "LED Volume Set"]
+    },
+    {
+        "city": "Mexico DF",
+        "country": "Mexico",
+        "lat": 19.4326,
+        "long": -99.1332,
+        "studio": "AZTEK Labs",
+        "address": "Carretera de Jalisco 212, Mexico DF, CJ 45786, Mexico",
+        "description": "AZTEK Labs is a dynamic visual effects studio in Austin, known for its cutting-edge technology and highly skilled team of artists.",
+        "tags": ["Chroma", "LED Volume Set"]
+    }
+]
