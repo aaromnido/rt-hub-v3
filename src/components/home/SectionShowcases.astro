@@ -1,0 +1,44 @@
+---
+// Components
+import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+import SectionHeader from '../SectionHeader.astro';
+import CardShowcase from '../CardShowcase.astro';
+import data from '../../data/showcases-data.json';
+
+let news = new Map<string, string>();
+
+data.forEach(item => {
+    news.set(item.title, item.thumbnailUrl);
+});
+let topThreeNews = data.slice(0, 3);
+---
+
+<section class="section courses-section dark-theme">
+    <div class="section-container">
+        <div class="section-wrapper">
+
+			<SectionHeader
+				title="Showcase of <strong>Stars</strong></strong>"
+				subtitle="Check out the <strong>extraordinary achievements</strong> of our students"
+			/>
+
+            <div class="cards-grid">
+                {topThreeNews.map((item) => (
+                    <CardShowcase
+                        thumbnailURL={`/images/showcases/${item.thumbnailUrl}`}
+                        slug={item.slug}
+                        course={item.course}
+                        author={item.author}
+                    />
+                ))}
+            </div>
+
+            <footer class="section-footer">
+                <a class="secondary-button secondary-button-white" href="/showcases">
+                    Browse all Projects <ArrowSmallRight class="w-6 h-6" />
+                </a>
+            </footer>
+
+        </div>
+     </div>
+</section>

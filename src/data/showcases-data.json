@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Chants of the High Priest: An Aztec Odyssey",
+        "slug": "chants-of-the-high-priest-an-ztec-dyssey",
+        "course": "Epic Bootcamp Animation 2023 - Europe",
+        "thumbnailUrl": "thumb-1.png",
+        "videoUrl": "https://cdn.ut-hub.com/file/file/f5168fc1cd7f/prooyecto_marcosbarbosa_animation2023.mp4",
+        "author": "Mike Hesketh",
+        "team": "Team Vilanova UT-HUB",
+        "excerpt": "Step into a world where the ancient and the mystical come alive—welcome to our immersive journey into Aztec culture and rituals. In this captivating video, we'll transport you back in time, straight to the heart of an Aztec marketplace...",
+        "description": "But that's just the beginning. As you ascend the pyramid's stone steps, each one imbued with centuries of history and spirituality, you'll experience a growing sense of awe and wonder. At the summit, you'll find yourself amidst a sacred ceremony led by a high priest adorned in turquoise and gold. Feel the crowd's collective energy reach a fever pitch as the priest's chants in ancient Nahuatl fill the air",
+        "tags": ["Unreal Engine", "Animation"]
+    },
+    {
+        "title": "Crossing the threshold",
+        "slug": "crossing-the-threshold",
+        "course": "Epic Bootcamp animation 2023 - LATAM",
+        "thumbnailUrl": "thumb-2.png",
+        "videoUrl": "https://cdn.ut-hub.com/file/file/f5168fc1cd7f/prooyecto_marcosbarbosa_animation2023.mp4",
+        "author": "Mike Hesketh",
+        "team": "Team Vilanova UT-HUB",
+        "excerpt": "This crossing symbolizes a point of no return, where the hero commits to the quest and embraces change, leaving his previous life behind...",
+        "description": "But that's just the beginning. As you ascend the pyramid's stone steps, each one imbued with centuries of history and spirituality, you'll experience a growing sense of awe and wonder. At the summit, you'll find yourself amidst a sacred ceremony led by a high priest adorned in turquoise and gold. Feel the crowd's collective energy reach a fever pitch as the priest's chants in ancient Nahuatl fill the air",
+        "tags": ["Unreal Engine", "Animation"]
+    },
+    {
+        "title": "Lost in Paris",
+        "slug": "lost-inparis",
+        "course": "Epic Bootcamp animation 2023 - LATAM",
+        "thumbnailUrl": "thumb-3.png",
+        "videoUrl": "https://cdn.ut-hub.com/file/file/f5168fc1cd7f/prooyecto_marcosbarbosa_animation2023.mp4",
+        "author": "Christofer Abel Alfaro Vega",
+        "team": "Team Lorente UT-HUB",
+        "excerpt": "Throughout his journey, the hero acquires essential information that sheds light on the purpose of his quest and his role in history...",
+        "description": "This revelation may be provided by mentors, allies or even through mystical experiences. It may involve discoveries about his origin, the main enemy or the very nature of his quest. This information guides the hero to a deeper understanding of his path and helps him make more informed decisions.",
+        "tags": ["Unreal Engine", "Animation"]
+    }
+  ]
+
