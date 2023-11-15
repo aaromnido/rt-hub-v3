@@ -1,0 +1,22 @@
+---
+// Components
+import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+import SectionHeader from '../SectionHeader.astro';
+import Accordion from '../Accordion.vue';
+---
+
+<section class="section faqs-section dark-theme">
+    <div class="section-container">
+        <div class="section-wrapper">
+
+			<SectionHeader
+				title="<strong>FAQs</strong>"
+				subtitle="Get the clarity you need to move forward with confidence."
+			/>
+            <div class="accordion-container mb-24 xl:max-w-[50rem] max-w-full mx-auto">
+                <Accordion />
+            </div>
+
+        </div>
+     </div>
+</section>

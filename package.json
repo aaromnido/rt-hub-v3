@@ -12,10 +12,12 @@
   "dependencies": {
     "@astrojs/check": "^0.3.1",
     "@astrojs/react": "^3.0.4",
+    "@astrojs/vue": "^3.0.4",
     "@heroicons/react": "^2.0.18",
     "astro": "^3.5.3",
     "astro-heroicons": "^0.3.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vue": "^3.3.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
