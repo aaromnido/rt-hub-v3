@@ -1,0 +1,32 @@
+---
+import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+
+interface Props {
+	title: string;
+	slug: string;
+	thumbnailURL: string;
+	shortDescription: string;
+	difficulty: string;
+}
+
+const { title, slug, thumbnailURL, shortDescription, difficulty } = Astro.props;
+---
+
+
+<div class="card-item dark-card">
+    <div class="wrapper">
+       <div class="image" style={'background-image: url(' + thumbnailURL + ')'}></div>
+       <div class="container">
+           <h4>{title}</h4>
+           <p class="description mt-3 text-sm">
+            {shortDescription}
+           </p>
+           <p class="mb-4 font-medium uppercase text-sm">
+               DIFICULTY: <strong>{difficulty}</strong>
+           </p>
+           <a class="primary-button w-full" href=`/courses/${slug}`>
+               Start learning NOW! <ArrowSmallRight class="w-6 h-6" />
+           </a>
+       </div>
+    </div>
+</div>

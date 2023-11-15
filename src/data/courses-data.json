@@ -1,0 +1,52 @@
+[
+    {
+      "title": "nvidia-labs-at-ut-hub-nerf-edition",
+      "slug": "persona-5-tactica-tries-to-make-up-for-the-series-homophobia",
+      "thumbnailURL": "bootcamp-nvidia.png",
+      "shortDescription": "Unity Unite Berlin offers a unique blend of educational sessions and interactive workshops. Discover Unity latest features.",
+      "difficulty": "Intiation"
+    },
+    {
+      "title": "Epic Bootcamp Animation 2023 - Europe",
+      "slug": "epic-bootcamp-animation-2023-europe",
+      "thumbnailURL": "bootcamp-europe.png",
+      "shortDescription": "Unity Unite Berlin offers a unique blend of educational sessions and interactive workshops. Discover Unity latest features.",
+      "difficulty": "Intiation"
+    },
+    {
+      "title": "Epic Bootcamp Animation 2023 - LatLATAMam",
+      "slug": "epic-bootcamp-animation-2023-latam",
+      "thumbnailURL": "bootcamp-latam.png",
+      "shortDescription": "Unity Unite Berlin offers a unique blend of educational sessions and interactive workshops. Discover Unity latest features.",
+      "difficulty": "Intiation"
+    },
+    {
+      "title": "Advanced 3D Modeling with Blender",
+      "slug": "advanced-3d-modeling-with-blender",
+      "thumbnailURL": "dummy-2.webp",
+      "shortDescription": "Master the art of 3D modeling with Blender. Create stunning 3D models and animations.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "title": "Game Development Fundamentals",
+      "slug": "game-development-fundamentals",
+      "thumbnailURL": "dummy-3.webp",
+      "shortDescription": "Learn the basics of game development and start building your own games from scratch.",
+      "difficulty": "Beginner"
+    },
+    {
+      "title": "Web Development Bootcamp",
+      "slug": "web-development-bootcamp",
+      "thumbnailURL": "dummy-4.webp",
+      "shortDescription": "Become a proficient web developer with this intensive bootcamp. Build real-world web applications.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "title": "Artificial Intelligence in Python",
+      "slug": "artificial-intelligence-in-python",
+      "thumbnailURL": "dummy-1.webp",
+      "shortDescription": "Explore the world of AI with Python. Develop AI-powered applications and algorithms.",
+      "difficulty": "Advanced"
+    }
+  ]
+  

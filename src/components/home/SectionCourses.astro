@@ -2,18 +2,18 @@
 // Components
 import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
 import SectionHeader from '../SectionHeader.astro';
-import CardArticle from '../CardArticle.astro';
-import data from '../../data/news-data.json';
+import CardCourse from '../CardCourse.astro';
+import data from '../../data/courses-data.json';
 
 let news = new Map<string, string>();
 
 data.forEach(item => {
-    news.set(item.title, item.excerpt);
+    news.set(item.title, item.shortDescription);
 });
 let topThreeNews = data.slice(0, 3);
 ---
 
-<section class="section news-section light-theme">
+<section class="section courses-section dark-theme">
     <div class="section-container">
         <div class="section-wrapper">
 
@@ -22,26 +22,24 @@ let topThreeNews = data.slice(0, 3);
 				subtitle="Stay ahead of the curve with the latest buzz and expert takes"
 			/>
 
-            <!-- Grid -->
             <div class="cards-grid">
-                
                 {topThreeNews.map((item) => (
-                    <CardArticle
-                        imageUrl={`/images/articles/${item.imageUrl}`}
+                    <CardCourse
+                        thumbnailURL={`/images/courses/${item.thumbnailURL}`}
                         title={item.title}
                         slug={item.slug}
-                        updatedAt={item.updatedAt}
-                        excerpt={item.excerpt}
+                        shortDescription={item.shortDescription}
+                        difficulty={item.difficulty}
+
                     />
                 ))}
-
-            </div><!-- / Grid -->
+            </div>
 
             <footer class="section-footer">
-                <a class="secondary-button" href="/news">
+                <a class="secondary-button secondary-button-white" href="/courses">
                     Browse all Articles <ArrowSmallRight class="w-6 h-6" />
-                </a><!-- / Button -->
-            </footer><!-- / Footer -->
+                </a>
+            </footer>
 
         </div><!-- Wrapper -->
      </div><!-- / Container -->

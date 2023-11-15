@@ -1,17 +1,8 @@
 [
   {
-    "title": "Persona 5 Tactica Tries To Make Up For The Series’ Homophobia",
-    "imageUrl": "dummy-1.webp",
-    "author": "Kotaku",
-    "updatedAt": "Nov 12, 2023",
-    "excerpt": "Unity Unite",
-    "category": "article",
-    "body": "Unity Unite Berlin offers a unique blend of educational sessions and interactive workshops. Discover Unity latest features.",
-    "tags": ["Real Time", "Business", "Unity"]
-  },
-  {
     "title": "The New Breakthrough in Virtual Reality Transforms the Industry",
-    "imageUrl": "dummy-2.webp",
+    "slug": "the-new-breakthrough-in-virtual-reality-transforms-the-industry",
+    "imageUrl": "dummy-4.webp",
     "author": "Kotaku",
     "updatedAt": "Nov 13, 2023",
     "excerpt": "A new breakthrough in virtual reality technology promises to revolutionize the gaming experience.",
@@ -24,11 +15,38 @@
     ]
   },
   {
+    "title": "Persona 5 Tactica Tries To Make Up For The Series’ Homophobia",
+    "slug": "persona-5-tactica-tries-to-make-up-for-the-series-homophobia",
+    "imageUrl": "dummy-1.webp",
+    "author": "Kotaku",
+    "updatedAt": "Nov 12, 2023",
+    "excerpt": "Despite still leaving room for improvement, Halo Infinite’s latest season revolutionizes the game. It’s no secret that Halo Infinite...",
+    "category": "article",
+    "body": "Unity Unite Berlin offers a unique blend of educational sessions and interactive workshops. Discover Unity latest features.",
+    "tags": ["Real Time", "Business", "Unity"]
+  },
+  {
+    "title": "The New Breakthrough in Virtual Reality Transforms the Industry",
+    "slug": "the-new-breakthrough-in-virtual-reality-transforms-the-industry",
+    "imageUrl": "dummy-2.webp",
+    "author": "Kotaku",
+    "updatedAt": "Nov 13, 2023",
+    "excerpt": "A new breakthrough in virtual reality technology promises to revolutionize the gaming experience, and much more than...",
+    "category": "article",
+    "body": "The latest innovation in virtual reality, presented at the VR World conference, offers an unprecedented immersion with new interactive capabilities and enhanced graphics.",
+    "tags": [
+      "Virtual Reality",
+      "Innovation",
+      "Technology"
+    ]
+  },
+  {
     "title": "Launch of the New Interactive 3D Console",
+    "slug": "launch-of-the-new-interactive-3d-console",
     "imageUrl": "dummy-3.webp",
     "author": "Kotaku",
     "updatedAt": "Nov 12, 2023",
-    "excerpt": "The new 3D console promises to take gaming to another level.",
+    "excerpt": "Over the last two decades, Activision’s popular shooter series has featured some truly unforgettable moments for glory...",
     "category": "article",
     "body": "The console, integrating glasses-free 3D technology, has been well-received by industry experts.",
     "tags": [
@@ -39,6 +57,7 @@
   },
   {
     "title": "The New Breakthrough in Virtual Reality Transforms the Industry",
+    "slug": "the-new-breakthrough-in-virtual-reality-transforms-the-industry",
     "imageUrl": "dummy-4.webp",
     "author": "Kotaku",
     "updatedAt": "Nov 13, 2023",
@@ -53,6 +72,7 @@
   },
   {
     "title": "Release of the Most Anticipated 3D Game of the Year",
+    "slug": "release-of-the-most-anticipated-3d-game-of-the-year",
     "imageUrl": "dummy-5.webp",
     "author": "IGN",
     "updatedAt": "Nov 15, 2023",
@@ -67,6 +87,7 @@
   },
   {
     "title": "RT-HUB: Innovation in Online Learning Platforms",
+    "slug": "rt-hub-innovation-in-online-learning-platforms",
     "imageUrl": "dummy-6.webp",
     "author": "TechCrunch",
     "updatedAt": "Nov 17, 2023",
@@ -81,6 +102,7 @@
   },
   {
     "title": "New RT-X1 Video Game Console Announced",
+    "slug": "new-rt-x1-video-game-console-announced",
     "imageUrl": "dummy-7.webp",
     "author": "GameSpot",
     "updatedAt": "Nov 19, 2023",
@@ -95,6 +117,7 @@
   },
   {
     "title": "The Future of Augmented Reality: Towards a More Interactive World",
+    "slug": "the-future-of-augmented-reality-towards-a-more-interactive-world",
     "imageUrl": "dummy-8.webp",
     "author": "VentureBeat",
     "updatedAt": "Nov 21, 2023",
@@ -109,6 +132,7 @@
   },
   {
     "title": "New Advances in 3D Graphics Impress the Developer Community",
+    "slug": "new-advances-in-3d-graphics-impress-the-developer-community",
     "imageUrl": "dummy-9.webp",
     "author": "Polygon",
     "updatedAt": "Nov 24, 2023",
@@ -123,6 +147,7 @@
   },
   {
     "title": "RT-HUB: Making Online Learning Easier",
+    "slug": "rt-hub-making-online-learning-easier",
     "imageUrl": "dummy-10.webp",
     "author": "CNET",
     "updatedAt": "Nov 27, 2023",
@@ -137,6 +162,7 @@
   },
   {
     "title": "The Impact of Virtual Reality on Medical Therapy",
+    "slug": "the-impact-of-virtual-reality-on-medical-therapy",
     "imageUrl": "dummy-11.webp",
     "author": "Medical News Today",
     "updatedAt": "Nov 29, 2023",
@@ -151,6 +177,7 @@
   },
   {
     "title": "3D Role-Playing Games Are on the Rise",
+    "slug": "3d-role-playing-games-are-on-the-rise",
     "imageUrl": "dummy-12.webp",
     "author": "Game Informer",
     "updatedAt": "Dec 1, 2023",
