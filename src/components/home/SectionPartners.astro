@@ -1,0 +1,57 @@
+---
+// Components
+import SectionHeader from '../SectionHeader.astro';
+---
+
+<section class="section partners-section light-theme">
+    <div class="section-container">
+
+        <!-- Wrapper -->
+       <div class="section-wrapper">
+
+            <SectionHeader
+                title="Trusted <strong>Partners</strong>"
+                subtitle="Collaborating with companies that share our vision"
+            />
+
+           <div class="group-logos">
+               <a href="https://uetc.mx/" target="_blanc">
+                   <img src="/images/logo-u-echo.png" alt="Logo">
+               </a>
+               <a href="https://www.dwisest.com/" target="_blanc">
+                   <img src="/images/logo-dwisest.png" alt="Logo">
+               </a>
+               <a href="https://incas-training.de/en/" target="_blanc">
+                   <img src="/images/logo-incas.png" alt="Logo">
+               </a>
+               <a href="https://www.rtdojo.com/" target="_blanc">
+                   <img src="/images/logo-rt-dojo.png" alt="Logo">
+               </a>
+               <a href="https://www.prometeo-lab.com/" target="_blanc">
+                   <img src="/images/logo-prometeo-lab.png" alt="Logo">
+               </a>
+               <a href="https://objectif3d.com/" target="_blanc">
+                   <img src="/images/logo.objectif3d.png" alt="Logo">
+               </a>
+               <a href="https://gameready.co.il/en/" target="_blanc">
+                   <img src="/images/logo-game-ready.png" alt="Logo">
+               </a>
+           </div>
+
+       </div>
+       <!-- Wrapper -->
+
+    </div>
+</section><!-- / Courses section -->
+
+<style>
+    .group-logos{
+        @apply text-center xl:max-w-[54rem] max-w-full mx-auto;
+    }
+    .group-logos a{
+        @apply inline-block;
+    }
+    .group-logos img{
+        @apply w-32 h-32 mx-10 my-4;
+    }
+</style>
