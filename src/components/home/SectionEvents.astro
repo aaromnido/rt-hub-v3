@@ -1,0 +1,52 @@
+---
+// Components
+import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+import SectionHeader from '../SectionHeader.astro';
+import CardEvent from '../CardEvent.astro';
+import data from '../../data/events-data.json';
+
+let news = new Map<string, string>();
+
+data.forEach(item => {
+    news.set(item.title, item.company);
+});
+let topThreeNews = data.slice(0, 3);
+---
+
+<section class="section events-section dark-theme">
+    <div class="section-container">
+        <div class="section-wrapper">
+
+			<SectionHeader
+				title="Upcoming <strong>Events</strong> to Elevate Your Skills"
+				subtitle="Don't miss out on opportunities to learn, network, and grow"
+			/>
+
+            <!-- Grid -->
+            <div class="cards-grid">
+                
+                {topThreeNews.map((item) => (
+                    <CardEvent
+                        company={item.company}
+                        logoUrl={item.logoUrl}
+                        country={item.country}
+                        city={item.city}
+                        date={item.date}
+                        title={item.title}
+                        slug={item.slug}
+                        description={item.description}
+                        tags={item.tags}
+                    />
+                ))}
+
+            </div><!-- / Grid -->
+
+            <footer class="section-footer">
+                <a class="secondary-button" href="/events">
+                    Browse all Events <ArrowSmallRight class="w-6 h-6" />
+                </a><!-- / Button -->
+            </footer><!-- / Footer -->
+
+        </div><!-- Wrapper -->
+     </div><!-- / Container -->
+</section><!-- / Courses section -->

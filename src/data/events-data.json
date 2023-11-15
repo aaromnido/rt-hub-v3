@@ -1,109 +1,133 @@
 [
     {
       "company": "Unity",
+      "logoUrl": "logo-unite.png",
       "country": "Germany",
       "city": "Berlin",
       "date": "Aug 10-12, 2023",
       "title": "Unity Unite",
+      "slug": "unity-unite",
       "description": "Unity Unite Berlin offers a unique blend of educational sessions and interactive workshops. Discover Unity latest features.",
       "tags": ["Real Time", "Business", "Unity"]
     },
     {
       "company": "Autodesk",
+      "logoUrl": "logo-autodesk.png",
       "country": "Spain",
       "city": "Barcelona",
       "date": "Nov 5-6, 2023",
       "title": "3D & Animation Expo",
+      "slug": "3d-and-animation-expo",
       "description": "Learn the latest trends in 3D design and animation. Masterclasses and product demos available.",
       "tags": ["3D", "Animation"]
     },
     {
       "company": "Real-Time Innovators Inc.",
+      "logoUrl": "logo-rti.png",
       "country": "USA",
       "city": "Los Angeles",
       "date": "Dec 1-4, 2023",
       "title": "RT Summit 2023",
+      "slug": "rt-summit-2023",
       "description": "Explore the cutting-edge advancements in real-time technologies. Ideal for developers and businesses.",
       "tags": ["Real Time", "Business"]
     },
     {
       "company": "Blender",
+      "logoUrl": "logo-blendercon.png",
       "country": "Netherlands",
       "city": "Amsterdam",
       "date": "Aug 10-12, 2023",
       "title": "Blender Conference",
+      "slug": "blender-onference",
       "description": "This past event was a haven for 3D artists and Blender enthusiasts. Attendees learned about Blender's newest tools, participated in hands-on workshops, and networked with some of.",
       "tags": ["3D", "Animation", "Developing"]
     },
     {
       "company": "SIGGRAPH",
+      "logoUrl": "logo-unreal.png",
       "country": "Canada",
       "city": "Vancouver",
       "date": "Aug 10-12, 2023",
       "title": "SIGGRAPH 2023",
+      "slug": "sigraph-2023",
       "description": "SIGGRAPH is the go-to event for anyone interested in computer graphics and their interactive techniques. The attendees could.",
       "tags": ["3D", "Animation", "Real Time"]
     },
     {
       "company": "GDC",
+      "logoUrl": "logo-unreal.png",
       "country": "USA",
       "city": "San Francisco",
       "date": "Aug 10-12, 2023",
       "title": "GDC 2023",
+      "slug": "gdc-2023",
       "description": "GDC is the world's largest professional game industry event. With panels, workshops, and roundtable discussions led by industry.",
       "tags": ["Gaming", "Developing", "Business"]
     },
     {
       "company": "Design Innovate",
+      "logoUrl": "logo-unreal.png",
       "country": "Italy",
       "city": "Milan",
       "date": "Sep 15-17, 2023",
       "title": "Design Tech Conference",
+      "slug": "design-tech-conference",
       "description": "Join the convergence of design and technology, featuring workshops on UX/UI, product design, and interactive media.",
       "tags": ["Design", "Technology", "UX/UI"]
     },
     {
       "company": "CodeWorld",
+      "logoUrl": "logo-unreal.png",
       "country": "India",
       "city": "Bengaluru",
       "date": "Oct 22-24, 2023",
       "title": "Developers' Summit",
+      "slug": "developers-summit",
       "description": "A summit for software developers focusing on the latest coding trends, agile methodologies, and cloud computing.",
       "tags": ["Software", "Agile", "Cloud"]
     },
     {
       "company": "EduTech",
+      "logoUrl": "logo-unreal.png",
       "country": "Australia",
       "city": "Sydney",
       "date": "Nov 12-14, 2023",
       "title": "Global Education Tech Expo",
+      "slug": "global-education-tech-expo",
       "description": "Exploring the future of education with technology, with a special focus on e-learning and educational software.",
       "tags": ["Education", "Technology", "E-learning"]
     },
     {
       "company": "AI Conclave",
+      "logoUrl": "logo-unreal.png",
       "country": "Singapore",
       "city": "Singapore",
       "date": "Jul 9-11, 2023",
       "title": "AI Innovations Summit",
+      "slug": "ai-innovations-summit",
       "description": "Dive into the world of artificial intelligence with keynotes on machine learning, neural networks, and AI applications in business.",
       "tags": ["AI", "Machine Learning", "Business"]
     },
     {
       "company": "GreenTech Symposium",
+      "logoUrl": "logo-unreal.png",
       "country": "Germany",
       "city": "Frankfurt",
       "date": "May 5-7, 2023",
       "title": "Sustainable Tech Meetup",
+      "slug": "sustainable-tech-meetup",
       "description": "A gathering focused on sustainable technologies, renewable energy solutions, and green initiatives in the tech industry.",
       "tags": ["Sustainability", "Renewable Energy", "Technology"]
     },
     {
       "company": "NextGen Robotics",
+      "logoUrl": "logo-unreal.png",
       "country": "Japan",
       "city": "Tokyo",
       "date": "Mar 23-25, 2023",
       "title": "Robotics Revolution Conference",
+      "slug": "robotics-revolution-conference",
       "description": "An expo dedicated to the advancements in robotics, showcasing the latest innovations in robotic automation and AI.",
       "tags": ["Robotics", "Automation", "AI"]
     }

@@ -1,0 +1,45 @@
+---
+import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+
+interface Props {
+	company: string;
+	logoUrl: string;
+	country: string;
+	city: string;
+	date: string;
+	title: string;
+	slug: string;
+	description: string;
+	tags: string[];
+}
+
+const { company, logoUrl, country, city, date, title, slug, description, tags } = Astro.props;
+---
+
+<div class="card-item light-card">
+    <div class="container">
+        <header class="card-header">
+            <img src={`/images/events/${ logoUrl }`} alt={ title } class="w-16 h-16">
+    
+            <div class="ml-4">
+                <h6 class="text-sm font-bold">{ company }</h6>
+                <p class="text-sm">{ city }, { country }</p>
+            </div>
+        </header>
+
+        <div class="content">
+            <p class="uppercase text-sm mb-3">
+                { date }
+            </p>
+            <h4 class="mb-0">{ title }</h4>
+            <p class="description text-sm">
+             { description }   
+            </p>
+            <!-- Button -->
+            <a class="secondary-button secondary-button-white secondary-button-outlined w-full" href=`/events/${slug}`>
+                More Info <ArrowSmallRight class="w-6 h-6" />
+            </a>
+            <!-- End Button -->
+        </div>
+    </div>
+</div>
