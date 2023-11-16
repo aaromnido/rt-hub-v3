@@ -34,21 +34,13 @@ let featuredCourse = data.slice(0, 1);
                         subtitle="Online courses for creative professionals"
                     />
 
-                    <div class="case-container- grid grid-cols-4">
-                        <div class="col-span-1">
-                            Hola
-                        </div>
-                        <div class="col-span-3">
-                           Adios
-                        </div>
                     </div>
                     {featuredCourse.map((item) => (
                         
-                        <div class="card-item card-horizontal dark-card bg-white">
+                        <div class="card-item card-horizontal dark-card mx-8">
                             <div class="wrapper flex">
                                 <div class="md:w-1/3">
                                     <div class="image" style={`background-image: url('/images/courses/${item.thumbnailURL}')`}></div>
-
                                 </div>
                                 <div class="md:w-2/3">
                                     <div class="container">
@@ -78,7 +70,7 @@ let featuredCourse = data.slice(0, 1);
 
                     <LogosPartners />
 
-                    <div class="cards-grid">
+                    <div class="cards-grid mx-8">
                         {coursesAll.map((item) => (
                             <CardCourse
                                 thumbnailURL={`/images/courses/${item.thumbnailURL}`}
