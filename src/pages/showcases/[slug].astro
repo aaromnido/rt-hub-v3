@@ -1,0 +1,86 @@
+---
+// Layout
+import Layout from '../../layouts/Layout.astro';
+
+// Components
+import Separator from '../../components/Separator.astro';
+import SectionHeader from '../../components/SectionHeader.astro';
+import SidenavShowcases from '../../components/SidenavShowcases.astro';
+
+// Data
+import data from '../../data/showcases-data.json';
+
+// Variables
+const title = "RT-HUB - Showcases";
+
+// Getting the slug from URL
+const slug = Astro.params.slug;
+
+// Requsting data
+const showcase = data.find((item) => item.slug === slug);
+---
+
+<Layout title={title}>
+    
+	<main class="main">
+        <section class="section-course section-detail dark-theme">
+            <div class="section-container">
+                <div class="section-wrapper">
+
+                    <SectionHeader
+                        title="Showcase of <strong>Stars</strong>"
+                        subtitle="Check out the <strong>extraordinary achievements</strong> of our students<br><strong>Highlight your success</strong> and let the world see how far you've come."
+                    />
+
+                    <main class="case mb-32">
+                        <video class="video-player w-full h-auto max-w-full rounded-md overflow-hidden mb-20 border border-slate-600" controls>
+                            <source src={ showcase.videoUrl} type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                        
+                        <div class="case-container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-9">
+                            <div class="col-span-1">
+                                <SidenavShowcases />
+                            </div>
+                            <div class="case-content col-1 md:col-span-2 lg:col-span-3 order-1 md:order-2">
+                                <div class="col-span-2">
+                                    <header class="case-header"></header>
+                                        <h2 class="text-3xl font-semibold mb-4">{ showcase.title }</h2>
+                                        <h2 class="text-2xl font-light text-slate-400 mb-4">{ showcase.course }</h2>
+                                        <div class="user-data- grid grid-cols-10 lg:grid-cols-14">
+                                            <div class="col-span-7 lg:col-span-9">
+                                                <p class="text-sm mb-2">
+                                                    <strong>{ showcase.author }</strong> | { showcase.team }
+                                                </p>
+                                                <span class="badge bg-purple-300 text-blue-950">Unreal Engine</span>
+                                                <span class="badge bg-purple-300 text-blue-950">Animation</span>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="case-body mb-10 md:mb-2 mt-10">
+                                        {
+                                            new Array(3).fill(null).map((_, index) => (
+                                                showcase.description + " "
+                                            ))
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+    
+
+
+                </div><!-- Wrapper -->
+             </div><!-- / Container -->
+        </section><!-- / Courses section -->
+
+		<Separator />
+	</main>
+
+</Layout>
+
+<style>
+
+</style>
