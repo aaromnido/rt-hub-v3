@@ -89,6 +89,14 @@ body{
 .badge{
     @apply px-2.5 py-0.5 mr-2 rounded-full font-semibold text-xs uppercase;
 }
+.section-detail{
+    padding-top: 100px;
+}
+.section-course .badge{
+    background: var(--gray);
+    color: var(--navy);
+    @apply inline-flex items-center rounded-full px-2 py-1 text-xs font-semibold mr-1;
+}
 .section-course .badge{
     background: var(--gray);
     color: var(--navy);

@@ -1,0 +1,141 @@
+---
+// Layout
+import Layout from '../../layouts/Layout.astro';
+
+// Icons
+import HeroiconsPuzzlePiece from '../../components/icons/HeroiconsPuzzlePiece.vue';
+import HeroiconsClock from '../../components/icons/HeroiconsClock.vue';
+import HeroiconsChartBarSquare from '../../components/icons/HeroiconsChartBarSquare.vue';
+import HeroiconsLanguage from '../../components/icons/HeroiconsLanguage.vue';
+import HeroiconsHome from '../../components/icons/HeroiconsHome.vue';
+import HeroiconsCheckBadge from '../../components/icons/HeroiconsCheckBadge.vue';
+import HeroiconsKey from '../../components/icons/HeroiconsKey.vue';
+import HeroiconsCalendar from '../../components/icons/HeroiconsCalendar.vue';
+
+// Components
+import Separator from '../../components/Separator.astro';
+import SectionHeader from '../../components/SectionHeader.astro';
+import CardCourse from '../../components/CardCourse.astro';
+import data from '../../data/courses-data.json';
+
+// Variables
+const title = "RT-HUB - Learning platform"
+
+// Getting the slug from URL
+const slug = Astro.params.slug;
+
+// Requsting data
+const course = data.find((item) => item.slug === slug);
+---
+
+<Layout title={title}>
+
+	<main class="main">
+        <section class="section-course section-detail dark-theme">
+            <div class="section-container">
+                <div class="section-wrapper">
+                    <div class="grid grid-cols-1 lg:grid-cols-3 md:gap-12 lg:gap-16 mb-32">
+
+                        <aside class="grid mb-12">
+                            <div class="image-course rounded h-80 w-full bg-cover bg-center bg-no-repeat" style={`background-image: url('/images/courses/${course.thumbnailURL}')`}></div>
+                        </aside>
+
+                        <article class="col-span-2">
+                            <header>
+                                <div class="tags mb-6">
+                                    <span class="badge badge-danger">New</span>
+                                    <span class="badge badge-success">Online</span>
+                                    <span class="badge">Bootcamp</span>
+                                    <span class="badge">Basic</span>
+                                    <span class="badge">Spanish</span>
+                                </div>
+                                <h1 class="text-3xl font-semibold pb-4">{ course.title }</h1><!-- / Title -->
+                            </header>
+            
+                            <div class="content text-color-gray">
+                                <p class="pb-6 text-color-gray">{ course.shortDescription }</p>
+            
+                                <ul class="course-legend">
+                                    <li class="item">
+                                        <div class="">
+                                            <HeroiconsPuzzlePiece class="icon" />
+                                            <span>Evaluation mode</span>
+                                        </div>
+                                        <span>Project</span>
+                                    </li>
+                                    <li class="item">
+                                        <div class="">
+                                            <HeroiconsClock class="icon" />
+                                            <span>Duration</span>
+                                        </div>
+                                        <span>4 weeks</span>
+                                    </li>
+                                    <li class="item">
+                                        <div class="">
+                                            <HeroiconsChartBarSquare class="icon" />
+                                            <span>Complexity</span>
+                                        </div>
+                                        <span>{ course.difficulty }}</span>
+                                    </li>
+                                    <li class="item">
+                                        <div class="">
+                                            <HeroiconsLanguage class="icon" />
+                                            <span>Language</span>
+                                        </div>
+                                        <span>English</span>
+                                    </li>
+                                    <li class="item">
+                                        <div class="">
+                                            <HeroiconsCheckBadge class="icon" />
+                                            <span>Certificate</span>
+                                        </div>
+                                        <span>Yes</span>
+                                    </li>
+                                    <li class="item">
+                                        <div class="">
+                                            <HeroiconsKey class="icon" />
+                                            <span>Unlimited access</span>
+                                        </div>
+                                        <span>No</span>
+                                    </li>
+                                    <li class="item">
+                                        <div class="">
+                                            <HeroiconsHome class="icon" />
+                                            <span>Modality</span>
+                                        </div>
+                                        <span>Online</span>
+                                    </li>
+
+                                    <li class="item">
+                                        <div class="">
+                                            <HeroiconsCalendar class="icon" />
+                                            <span>Start date</span>
+                                        </div>
+                                        <span>14/02/2024</span>
+                                    </li>
+                                </ul>
+
+                                <p class="pb-6">
+                                    { course.shortDescription }
+                                    { course.shortDescription }
+                                    { course.shortDescription }
+                                    { course.shortDescription }
+                                    { course.shortDescription }
+                                </p>
+
+                            </div><!-- / Content -->
+                        </article><!-- / Course Right -->
+            
+                    </div>
+
+                </div><!-- Wrapper -->
+             </div><!-- / Container -->
+        </section><!-- / Courses section -->
+		<Separator />
+	</main>
+
+</Layout>
+
+<style>
+
+</style>

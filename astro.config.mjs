@@ -5,5 +5,6 @@ import vue from "@astrojs/vue";
 // https://astro.build/config
 export default defineConfig({
   renderers: ['@astrojs/react'],
-  integrations: [vue()]
+  integrations: [vue()],
+  output: "server",
 });
