@@ -7,7 +7,8 @@
       "date": "Aug 10-12, 2023",
       "title": "Unity Unite",
       "slug": "unity-unite",
-      "description": "Unity Unite Berlin offers a unique blend of educational sessions and interactive workshops. Discover Unity latest features.",
+      "excerpt": "Unity Unite Berlin is an exceptional event that combines a wide variety of educational sessions and interactive workshops. In this exciting gathering, you will have the...",
+      "description": "Unity Unite Berlin is an exceptional event that combines a wide variety of educational sessions and interactive workshops. In this exciting gathering, you will have the opportunity to immerse yourself in the latest offerings that Unity has to provide. From informative talks to hands-on sessions, Unite Berlin is the perfect place to delve into Unity's most recent innovations and learn how to apply them in your role as a product designer at RT-HUB LMS. Don't miss this unique opportunity to stay informed about the trends and advancements in the world of Unity.",
       "tags": ["Real Time", "Business", "Unity"]
     },
     {
@@ -18,7 +19,8 @@
       "date": "Nov 5-6, 2023",
       "title": "3D & Animation Expo",
       "slug": "3d-and-animation-expo",
-      "description": "Learn the latest trends in 3D design and animation. Masterclasses and product demos available.",
+      "excerpt": "Explore a world of nail care excellence as we unveil a treasure trove of tips and techniques to ensure your nails are always at their best. Join us as our team of beauty experts...",
+      "description": "Explore a world of nail care excellence as we unveil a treasure trove of tips and techniques to ensure your nails are always at their best. Join us as our team of beauty experts guides you through the art and science of nail maintenance. From practical advice on nail hygiene to in-depth demonstrations showcasing the secrets of flawless nails, our event is your passport to a realm of healthy and beautifully manicured nails. Don't miss this opportunity to elevate your nail care game to new heights and show off nails that are not just a fashion statement but a testament to your commitment to self-care and elegance.",
       "tags": ["3D", "Animation"]
     },
     {
@@ -29,7 +31,8 @@
       "date": "Dec 1-4, 2023",
       "title": "RT Summit 2023",
       "slug": "rt-summit-2023",
-      "description": "Explore the cutting-edge advancements in real-time technologies. Ideal for developers and businesses.",
+      "excerpt": "Dive deep into the forefront of real-time technology advancements. Our event is tailor-made for developers and businesses alike, offering an immersive experience where...",
+      "description": "Dive deep into the forefront of real-time technology advancements. Our event is tailor-made for developers and businesses alike, offering an immersive experience where you can unravel the latest breakthroughs in the world of real-time technologies. From hands-on workshops to insightful discussions, you'll have the chance to explore and grasp the cutting-edge innovations that are shaping the future. Whether you're a seasoned developer looking to stay at the forefront of your field or a business seeking to leverage the power of real-time tech, our event is your gateway to the future of innovation.",
       "tags": ["Real Time", "Business"]
     },
     {
@@ -40,7 +43,8 @@
       "date": "Aug 10-12, 2023",
       "title": "Blender Conference",
       "slug": "blender-onference",
-      "description": "This past event was a haven for 3D artists and Blender enthusiasts. Attendees learned about Blender's newest tools, participated in hands-on workshops, and networked with some of.",
+      "excerpt": "The previous edition of this event served as a haven for 3D artists and avid Blender enthusiasts. Attendees immersed themselves in a vibrant community where they not only...",
+      "description": "The previous edition of this event served as a haven for 3D artists and avid Blender enthusiasts. Attendees immersed themselves in a vibrant community where they not only discovered the latest tools and features of Blender but also actively engaged in hands-on workshops that allowed them to harness the full potential of this powerful software. Moreover, participants had the valuable opportunity to network with some of the most creative minds in the 3D art and Blender community, forging connections that continue to inspire and empower their artistic journeys.",
       "tags": ["3D", "Animation", "Developing"]
     },
     {
@@ -51,7 +55,8 @@
       "date": "Aug 10-12, 2023",
       "title": "SIGGRAPH 2023",
       "slug": "sigraph-2023",
-      "description": "SIGGRAPH is the go-to event for anyone interested in computer graphics and their interactive techniques. The attendees could.",
+      "excerpt": "SIGGRAPH stands as the ultimate destination for individuals with a passion for computer graphics and the interactive techniques that bring them to life. At this iconic event..",
+      "description": "SIGGRAPH stands as the ultimate destination for individuals with a passion for computer graphics and the interactive techniques that bring them to life. At this iconic event, attendees not only had the chance to delve deep into the realms of computer graphics but also to unleash their creativity in ways they never thought possible. From groundbreaking presentations to hands-on workshops and vibrant discussions, SIGGRAPH offered an immersive experience where participants could gain invaluable insights, refine their skills, and connect with like-minded individuals who share their fascination with the ever-evolving world of digital creativity",
       "tags": ["3D", "Animation", "Real Time"]
     },
     {
@@ -62,7 +67,8 @@
       "date": "Aug 10-12, 2023",
       "title": "GDC 2023",
       "slug": "gdc-2023",
-      "description": "GDC is the world's largest professional game industry event. With panels, workshops, and roundtable discussions led by industry.",
+      "excerpt": "GDC (Game Developers Conference) stands tall as the world's largest and most influential professional gathering within the game industry. It's an immersive experience...",
+      "description": "GDC (Game Developers Conference) stands tall as the world's largest and most influential professional gathering within the game industry. It's an immersive experience that brings together game developers, industry leaders, and creative minds from all corners of the globe. This dynamic event offers an extensive program featuring panels, workshops, and roundtable discussions, all expertly curated and led by industry veterans. Attendees have the unique opportunity to not only gain profound insights into the latest trends and technologies but also to engage in meaningful discussions that shape the future of the gaming world. Whether you're a seasoned developer or an aspiring talent, GDC is your gateway to a world of inspiration, innovation, and collaboration.",
       "tags": ["Gaming", "Developing", "Business"]
     },
     {
@@ -73,7 +79,8 @@
       "date": "Sep 15-17, 2023",
       "title": "Design Tech Conference",
       "slug": "design-tech-conference",
-      "description": "Join the convergence of design and technology, featuring workshops on UX/UI, product design, and interactive media.",
+      "excerpt": "Be part of the exciting convergence of design and technology as we bring you an event that seamlessly blends the two worlds. Our event is a vibrant showcase of workshops...",
+      "description": "Be part of the exciting convergence of design and technology as we bring you an event that seamlessly blends the two worlds. Our event is a vibrant showcase of workshops, specifically tailored to immerse you in the realms of UX/UI, product design, and interactive media. Whether you're a seasoned designer looking to refine your craft or someone eager to embark on a journey into the world of design and technology, this event is your gateway to hands-on learning, creative inspiration, and the opportunity to connect with like-minded individuals who share your passion for shaping the future of user experiences and innovative products.",
       "tags": ["Design", "Technology", "UX/UI"]
     },
     {
@@ -84,7 +91,8 @@
       "date": "Oct 22-24, 2023",
       "title": "Developers' Summit",
       "slug": "developers-summit",
-      "description": "A summit for software developers focusing on the latest coding trends, agile methodologies, and cloud computing.",
+      "excerpt": "A summit for software developers focusing on the latest coding trends, agile methodologies, and cloud computing, you will have the trends, agile methodologies, and cloud...",
+      "description": "Explore an extraordinary event that delves into the world of software development. Our comprehensive program covers a wide range of topics, including the latest trends in software development, agile methodologies, and the transformative impact of cloud computing. This event is a must-attend for software professionals, offering a rich tapestry of insights, practical knowledge, and networking opportunities. From in-depth discussions on software best practices to hands-on workshops that hone your agile skills and expert insights into harnessing the power of cloud technologies, our event equips you with the tools and know-how to excel in the ever-evolving software landscape.",
       "tags": ["Software", "Agile", "Cloud"]
     },
     {
@@ -95,7 +103,8 @@
       "date": "Nov 12-14, 2023",
       "title": "Global Education Tech Expo",
       "slug": "global-education-tech-expo",
-      "description": "Exploring the future of education with technology, with a special focus on e-learning and educational software.",
+      "excerpt": "Immerse yourself in a summit designed exclusively for software developers, where we dive deep into the ever-evolving landscape of coding trends, agile methodologies, and the...",
+      "description": "Immerse yourself in a summit designed exclusively for software developers, where we dive deep into the ever-evolving landscape of coding trends, agile methodologies, and the transformative power of cloud computing. This event is a dynamic platform that caters to developers of all levels, offering a comprehensive exploration of the most current and impactful developments in the world of software development. From in-depth discussions on emerging coding practices to practical insights into agile workflows and the limitless possibilities of cloud computing, our summit equips you with the knowledge and skills needed to excel in the fast-paced tech world",
       "tags": ["Education", "Technology", "E-learning"]
     },
     {
@@ -106,7 +115,8 @@
       "date": "Jul 9-11, 2023",
       "title": "AI Innovations Summit",
       "slug": "ai-innovations-summit",
-      "description": "Dive into the world of artificial intelligence with keynotes on machine learning, neural networks, and AI applications in business.",
+      "excerpt": "Embark on an immersive journey into the captivating realm of artificial intelligence, where our event brings you insightful keynotes that delve deep into the intricacies of...",
+      "description": "Embark on an immersive journey into the captivating realm of artificial intelligence, where our event brings you insightful keynotes that delve deep into the intricacies of machine learning, neural networks, and the practical applications of AI in the business landscape. This event is a gateway to understanding the cutting-edge developments in the field, catering to both beginners and experts. From thought-provoking discussions on the principles of machine learning to hands-on demonstrations of neural network applications and real-world case studies showcasing AI's transformative potential in various industries, our event equips you with the knowledge and insights needed to navigate the AI landscape with confidence.",
       "tags": ["AI", "Machine Learning", "Business"]
     },
     {
@@ -117,7 +127,8 @@
       "date": "May 5-7, 2023",
       "title": "Sustainable Tech Meetup",
       "slug": "sustainable-tech-meetup",
-      "description": "A gathering focused on sustainable technologies, renewable energy solutions, and green initiatives in the tech industry.",
+      "excerpt": "Join us at this inspiring gathering dedicated to the world of sustainable technologies, renewable energy solutions, and green initiatives within the tech industry on the...",
+      "description": "Join us at this inspiring gathering dedicated to the world of sustainable technologies, renewable energy solutions, and green initiatives within the tech industry. Our event is a vibrant convergence of forward-thinking individuals, companies, and organizations committed to shaping a more sustainable future. Delve into a rich program that includes thought-provoking discussions, hands-on demonstrations, and real-world case studies showcasing the remarkable advancements in sustainable tech. Whether you're a passionate advocate for environmental change or a tech enthusiast eager to explore the intersection of technology and sustainability, this gathering offers you a unique opportunity to be part of a movement that is driving positive change for our planet.",
       "tags": ["Sustainability", "Renewable Energy", "Technology"]
     },
     {
@@ -128,7 +139,8 @@
       "date": "Mar 23-25, 2023",
       "title": "Robotics Revolution Conference",
       "slug": "robotics-revolution-conference",
-      "description": "An expo dedicated to the advancements in robotics, showcasing the latest innovations in robotic automation and AI.",
+      "excerpt": "Step into the world of robotics at our dedicated expo, where we shine a spotlight on the cutting-edge advancements in this transformative field. This event is...",
+      "description": "Step into the world of robotics at our dedicated expo, where we shine a spotlight on the cutting-edge advancements in this transformative field. This event is a comprehensive showcase of the latest breakthroughs in robotic automation and artificial intelligence (AI). Immerse yourself in a dynamic program that features captivating demonstrations, expert presentations, and interactive exhibits that highlight the boundless potential of robotics. Whether you're a robotics enthusiast, a tech professional, or simply curious about the future of automation, this expo offers you an unparalleled opportunity to witness firsthand the innovations that are reshaping industries and changing the way we interact with technology.",
       "tags": ["Robotics", "Automation", "AI"]
     }
   ]

@@ -2,21 +2,11 @@
 // Layout
 import Layout from '../../layouts/Layout.astro';
 
-// Icons
-import HeroiconsPuzzlePiece from '../../components/icons/HeroiconsPuzzlePiece.vue';
-import HeroiconsClock from '../../components/icons/HeroiconsClock.vue';
-import HeroiconsChartBarSquare from '../../components/icons/HeroiconsChartBarSquare.vue';
-import HeroiconsLanguage from '../../components/icons/HeroiconsLanguage.vue';
-import HeroiconsHome from '../../components/icons/HeroiconsHome.vue';
-import HeroiconsCheckBadge from '../../components/icons/HeroiconsCheckBadge.vue';
-import HeroiconsKey from '../../components/icons/HeroiconsKey.vue';
-import HeroiconsCalendar from '../../components/icons/HeroiconsCalendar.vue';
-
 // Components
 import Separator from '../../components/Separator.astro';
 import SectionHeader from '../../components/SectionHeader.astro';
 import CardCourse from '../../components/CardCourse.astro';
-import data from '../../data/courses-data.json';
+import data from '../../data/events-data.json';
 
 // Variables
 const title = "RT-HUB - Learning platform"
@@ -25,112 +15,75 @@ const title = "RT-HUB - Learning platform"
 const slug = Astro.params.slug;
 
 // Requsting data
-const course = data.find((item) => item.slug === slug);
+const event = data.find((item) => item.slug === slug);
 ---
 
 <Layout title={title}>
-
 	<main class="main">
+
         <section class="section-course section-detail dark-theme">
-            <div class="section-container">
-                <div class="section-wrapper">
-                    <div class="grid grid-cols-1 lg:grid-cols-3 md:gap-12 lg:gap-16 mb-32">
+            <div class="section-wrapper">
+                <SectionHeader
+                    title="Upcoming <strong>Events</strong> to Elevate Your Skills"
+                    subtitle="Don't miss out on opportunities to learn, network, and grow"
+                />
+            </div>
+        </section>
+        
+        <section class="news-section light-theme py-24">
+            <div class="section-container news-section-container mb-24">
+                <div class="article-grid grid grid-cols-1 lg:grid-cols-4 gap-12">
 
-                        <aside class="grid mb-12">
-                            <div class="image-course rounded h-80 w-full bg-cover bg-center bg-no-repeat" style={`background-image: url('/images/courses/${course.thumbnailURL}')`}></div>
-                        </aside>
+                    <div class="sidenav col-1 order-2 md:order-1 text-left lg:text-right">
+                        <img src={`/images/events/${ event.logoUrl }`} alt="image" class="mb-12 w-full h-auto" />
+                        <a class="primary-button w-full mt-2 mb-8" href="#" target="_blank" >
+                            Visitit the Site <x-heroicon-o-arrow-right class="w-5 h-5" />
+                        </a>
+                        <div class="social-links">
+                            <p class="text-sm mb-1"><strong>Share on:</strong></p>
+                            <a class="secondary-button text-white w-full my-2"
+                                href="https://www.linkedin.com/shareArticle?mini=true&url={{ urlencode(Request::url()) }}"
+                                target="_blank">
+                                    <img class="icon" src="/images/icons/icon-linkedin-dark-theme.svg" alt="LinkedIn">
+                                    Linkedin
+                            </a>
+                            <a class="secondary-button text-white w-full my-2"
+                                href="https://twitter.com/intent/tweet?text={{ urlencode($event->title) }}&url={{ urlencode(Request::url()) }}"
+                                target="_blank">
+                                    <img class="icon" src="/images/icons/icon-twitter-dark-theme.svg" alt="Twitter">
+                                    Twitter
+                            </a>
+                        </div>
+                    </div><!-- / Sidenav -->
 
-                        <article class="col-span-2">
-                            <header>
-                                <div class="tags mb-6">
-                                    <span class="badge badge-danger">New</span>
-                                    <span class="badge badge-success">Online</span>
-                                    <span class="badge">Bootcamp</span>
-                                    <span class="badge">Basic</span>
-                                    <span class="badge">Spanish</span>
-                                </div>
-                                <h1 class="text-3xl font-semibold pb-4">{ course.title }</h1><!-- / Title -->
-                            </header>
-            
-                            <div class="content text-color-gray">
-                                <p class="pb-6 text-color-gray">{ course.shortDescription }</p>
-            
-                                <ul class="course-legend">
-                                    <li class="item">
-                                        <div class="">
-                                            <HeroiconsPuzzlePiece class="icon" />
-                                            <span>Evaluation mode</span>
-                                        </div>
-                                        <span>Project</span>
-                                    </li>
-                                    <li class="item">
-                                        <div class="">
-                                            <HeroiconsClock class="icon" />
-                                            <span>Duration</span>
-                                        </div>
-                                        <span>4 weeks</span>
-                                    </li>
-                                    <li class="item">
-                                        <div class="">
-                                            <HeroiconsChartBarSquare class="icon" />
-                                            <span>Complexity</span>
-                                        </div>
-                                        <span>{ course.difficulty }}</span>
-                                    </li>
-                                    <li class="item">
-                                        <div class="">
-                                            <HeroiconsLanguage class="icon" />
-                                            <span>Language</span>
-                                        </div>
-                                        <span>English</span>
-                                    </li>
-                                    <li class="item">
-                                        <div class="">
-                                            <HeroiconsCheckBadge class="icon" />
-                                            <span>Certificate</span>
-                                        </div>
-                                        <span>Yes</span>
-                                    </li>
-                                    <li class="item">
-                                        <div class="">
-                                            <HeroiconsKey class="icon" />
-                                            <span>Unlimited access</span>
-                                        </div>
-                                        <span>No</span>
-                                    </li>
-                                    <li class="item">
-                                        <div class="">
-                                            <HeroiconsHome class="icon" />
-                                            <span>Modality</span>
-                                        </div>
-                                        <span>Online</span>
-                                    </li>
+                    <div class="case-content col-1 lg:col-span-3 order-1 md:order-2">
+                        <header class="case-header mb-10">
+                            <div class="mb-8">
+                                <span class="badge bg-blue-100 bg-danger text-white">Upcomming</span>
+                                <span class="badge bg-purple-200">Unreal Engine</span>
+                                <span class="badge bg-blue-200">Developing</span>
+                            </div>
+                            <h2 class="text-[36px] font-semibold mb-4">{ event.title }</h2>
+                            <p class="text-[22px] font-semibold text-slate-800 mb-2">{ event.company }</p>
+                            <p class="text-[18px] font-light uppercase text-slate-800 mb-4 flex justify-between">
+                                <span>{ event.city }, { event.country }</span>
+                                <span>{ event.date }</span>
+                            </p>
+                        </header>
+                        <div class="article-body">
+                            <div class="article-text" class="">
+                                <p class="mb-4">{ event.description }</p>
+                                <p class="mb-4">{ event.description }</p>
+                                <p class="mb-4">{ event.description }</p>
+                            </div>
+                        </div>
+                    </div><!-- / Case content -->
 
-                                    <li class="item">
-                                        <div class="">
-                                            <HeroiconsCalendar class="icon" />
-                                            <span>Start date</span>
-                                        </div>
-                                        <span>14/02/2024</span>
-                                    </li>
-                                </ul>
+                </div>
+            </div>
+        </section>
 
-                                <p class="pb-6">
-                                    { course.shortDescription }
-                                    { course.shortDescription }
-                                    { course.shortDescription }
-                                    { course.shortDescription }
-                                    { course.shortDescription }
-                                </p>
 
-                            </div><!-- / Content -->
-                        </article><!-- / Course Right -->
-            
-                    </div>
-
-                </div><!-- Wrapper -->
-             </div><!-- / Container -->
-        </section><!-- / Courses section -->
 		<Separator />
 	</main>
 

@@ -9,11 +9,11 @@ interface Props {
 	date: string;
 	title: string;
 	slug: string;
-	description: string;
+	excerpt: string;
 	tags: string[];
 }
 
-const { company, logoUrl, country, city, date, title, slug, description, tags } = Astro.props;
+const { company, logoUrl, country, city, date, title, slug, excerpt, tags } = Astro.props;
 ---
 
 <div class="card-item light-card">
@@ -33,10 +33,10 @@ const { company, logoUrl, country, city, date, title, slug, description, tags } 
             </p>
             <h4 class="mb-0">{ title }</h4>
             <p class="description text-sm">
-             { description }   
+             { excerpt }   
             </p>
             <!-- Button -->
-            <a class="secondary-button secondary-button-white secondary-button-outlined w-full" href=`/events/${slug}`>
+            <a class="secondary-button secondary-button-white secondary-button-outlined w-full mt-4" href=`/events/${slug}`>
                 More Info <ArrowSmallRight class="w-6 h-6" />
             </a>
             <!-- End Button -->
