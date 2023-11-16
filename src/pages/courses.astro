@@ -1,0 +1,117 @@
+---
+// Layout
+import Layout from '../layouts/Layout.astro';
+
+// Components
+import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+import Separator from '../components/Separator.astro';
+import SectionHeader from '../components/SectionHeader.astro';
+import CardCourse from '../components/CardCourse.astro';
+import data from '../data/courses-data.json';
+
+// Variables
+const title = "RT-HUB - Learning platform"
+
+let courses = new Map<string, string>();
+
+data.forEach(item => {
+    courses.set(item.title, item.shortDescription);
+});
+let coursesAll = data.slice(1, 12);
+let featuredCourse = data.slice(0, 1);
+---
+
+<Layout title={title}>
+
+	<main class="main">
+        <section class="courses-section dark-theme">
+            <div class="section-container">
+                <div class="section-wrapper">
+        
+                    <SectionHeader
+                        title="Explore the <strong>Catalogue</strong></strong>"
+                        subtitle="Online courses for creative professionals"
+                    />
+
+
+                    {featuredCourse.map((item) => (
+                        <div class="card-item card-horizontal dark-card bg-white">
+                            <div class="wrapper flex">
+                                <div class="md:w-1/3">
+                                    <div class="image" style={`background-image: url('/images/courses/${item.thumbnailURL}')`}></div>
+
+                                </div>
+                                <div class="md:w-2/3">
+                                    <div class="container">
+
+                                        <div class="mb-4">
+                                            <span class="badge bg-pink-700">New</span>
+                                            <span class="badge bg-purple-300 text-blue-950">Real Time</span>
+                                            <span class="badge bg-purple-300 text-blue-950">Shadding</span>
+                                        </div>
+
+                                        <h3 class="mb-0 text-xl font-semibold mb-3">{ item.title }</h3>
+                                        <p class="text-sm mb-6 text-slate-400">
+                                            { item.shortDescription }
+                                        </p>
+                                        <p class="mb-4 font-medium uppercase text-sm">
+                                            DIFFICULTY: <strong>{ item.difficulty }</strong>
+                                        </p>
+                                        <a class="primary-button" href={`/courses/${item.slug}`}>
+                                            Start Learning NOW! <ArrowSmallRight class="w-6 h-6" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+
+
+                    <div class="group-logos text-center my-10 flex justify-center items-center flex-wrap">
+                        <a href="https://uetc.mx/" class="inline-block" target="_blanc">
+                            <img src="/images/partners-mono/LogoUEchoMono.png" alt="logo">
+                        </a>
+                        <a href="https://www.dwisest.com/" class="inline-block" target="_blanc">
+                            <img src="/images/partners-mono/LogoDwisestMono.png" alt="logo">
+                        </a>
+                        <a href="https://incas-training.de/en/" class="inline-block" target="_blanc">
+                            <img src="/images/partners-mono/LogoIncasMono.png" alt="logo">
+                        </a>
+                        <a href="https://www.rtdojo.com/" class="inline-block" target="_blanc">
+                            <img src="/images/partners-mono/LogoRTDojoMono.png" alt="logo">
+                        </a>
+                        <a href="https://www.prometeo-lab.com/" class="inline-block" target="_blanc">
+                            <img src="/images/partners-mono/LogoPrometeoLabMono.png" alt="logo">
+                        </a>
+                        <a href="https://objectif3d.com/" class="inline-block" target="_blanc">
+                            <img src="/images/partners-mono/LogoObjectIF3DMono.png" alt="logo">
+                        </a>
+                        <a href="https://gameready.co.il/en/" class="inline-block" target="_blanc">
+                            <img src="/images/partners-mono/LogoGameReadyMono.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <div class="cards-grid">
+                        {coursesAll.map((item) => (
+                            <CardCourse
+                                thumbnailURL={`/images/courses/${item.thumbnailURL}`}
+                                title={item.title}
+                                slug={item.slug}
+                                shortDescription={item.shortDescription}
+                                difficulty={item.difficulty}
+        
+                            />
+                        ))}
+                    </div>
+        
+                </div><!-- Wrapper -->
+             </div><!-- / Container -->
+        </section><!-- / Courses section -->
+		<Separator />
+	</main>
+
+</Layout>
+
+<style>
+
+</style>

@@ -185,13 +185,16 @@ body{
 .card-item .user-data{
     @apply grid grid-cols-8 lg:grid-cols-12 mb-4 gap-2 lg:gap-4;
 }
+.card-course .description{
+    color: var(--gray-lighter)
+}
 
 /* SECTIONS */
 .section{
     @apply py-20;
 }
 .section-wrapper{
-    @apply max-w-[85rem] px-4 py-20 sm:px-6 lg:px-8 lg:py-14 mx-auto;
+    @apply max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto;
 }
 .section-container{
     @apply mx-auto max-w-[85rem];
@@ -429,6 +432,10 @@ body{
 
     opacity: 70%;
     transition: .2s ease-in;
+    width: 80px;
+    height: 80px;
+    margin: 2rem;
+    display: inline-block;
 }
 .group-logos a:hover img{
 

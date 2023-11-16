@@ -13,12 +13,12 @@ const { title, slug, thumbnailURL, shortDescription, difficulty } = Astro.props;
 ---
 
 
-<div class="card-item dark-card">
+<div class="card-course card-item dark-card">
     <div class="wrapper">
        <div class="image" style={'background-image: url(' + thumbnailURL + ')'}></div>
        <div class="container">
            <h4>{title}</h4>
-           <p class="description mt-3 text-sm">
+           <p class="description mt-3 text-base">
             {shortDescription}
            </p>
            <p class="mb-4 font-medium uppercase text-sm">
