@@ -25,7 +25,7 @@
     },
     {
         "title": "Lost in Paris",
-        "slug": "lost-inparis",
+        "slug": "lost-in-paris",
         "course": "Epic Bootcamp animation 2023 - LATAM",
         "thumbnailUrl": "thumb-3.png",
         "videoUrl": "https://cdn.ut-hub.com/file/file/f5168fc1cd7f/prooyecto_marcosbarbosa_animation2023.mp4",
@@ -33,6 +33,18 @@
         "team": "Team Lorente UT-HUB",
         "excerpt": "Throughout his journey, the hero acquires essential information that sheds light on the purpose of his quest and his role in history...",
         "description": "This revelation may be provided by mentors, allies or even through mystical experiences. It may involve discoveries about his origin, the main enemy or the very nature of his quest. This information guides the hero to a deeper understanding of his path and helps him make more informed decisions.",
+        "tags": ["Unreal Engine", "Animation"]
+    },
+    {
+        "title": "Journey revelation",
+        "slug": "journey-revelation",
+        "course": "Epic Bootcamp animation 2023 - EUROPE",
+        "thumbnailUrl": "thumb-4.png",
+        "videoUrl": "https://cdn.ut-hub.com/file/file/f5168fc1cd7f/prooyecto_marcosbarbosa_animation2023.mp4",
+        "author": "Martin Cabrera",
+        "team": "Team Vicente UT-HUB",
+        "excerpt": "Once the hero has entered the unknown world, he encounters a series of obstacles and challenges to cover in the minor possible time...",
+        "description": "These obstacles may manifest themselves as formidable enemies, tests of skill, logistical difficulties or ethical dilemmas.Each obstacle represents an opportunity for the hero to demonstrate courage, creativity and personal growth.As he overcomes these obstacles, the hero becomes a stronger, more resilient version of himself.",
         "tags": ["Unreal Engine", "Animation"]
     }
   ]
