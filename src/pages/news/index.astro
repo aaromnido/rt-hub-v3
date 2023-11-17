@@ -13,25 +13,20 @@ import { truncateText } from '../../utils/helpers.js';
 // Variables
 const title = "RT-HUB - News"
 
-let news = new Map<string, string>();
-
-data.forEach(item => {
-    news.set(item.title, item.description);
-});
 let newsAll = data.slice(1, 12);
 let featuredNew = data.slice(0, 1);
 ---
 
 <Layout title={title}>
 
-    <div class="section-container events-section-container">
+    <header class="section-container events-section-container">
         <div class="section-wrapper pt-14">
             <SectionHeader
                 title="<strong>News</strong> & Articles"
                 subtitle="Stay Informed, Stay Inspired"
             />
         </div>
-    </div>
+    </header>
 
 
     <section class="news-section light-theme light-theme-top-dark pb-16 ">
@@ -48,7 +43,7 @@ let featuredNew = data.slice(0, 1);
 
                             <div class="container">
                                 <p class="mb-4 font-normal uppercase text-sm">{ item.updatedAt }</p>
-                                <h3 class="text-xl font-semibold mb-3">{ truncateText(item.title, 100) } - { item.category }</h3>
+                                <h3 class="text-xl font-semibold mb-3">{ truncateText(item.title, 100) }</h3>
                                 <p class="text-sm mb-6 text-slate-400">
                                     { truncateText(item.excerpt, 298) }
                                 </p>
@@ -69,8 +64,13 @@ let featuredNew = data.slice(0, 1);
                         title={item.title}
                         slug={item.slug}
                         updatedAt={item.updatedAt}
+                        author={item.author}
+                        category={item.category}
                         excerpt={item.excerpt}
+                        body={item.body}
+                        tags={item.tags}
                     />
+
                 ))}
             </div>
 

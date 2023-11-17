@@ -1,0 +1,95 @@
+---
+// Layout
+import Layout from '../../layouts/Layout.astro';
+
+// Components
+import Separator from '../../components/Separator.astro';
+import SectionHeader from '../../components/SectionHeader.astro';
+import SocialLinks from '../../components/SocialLinks.astro';
+import data from '../../data/news-data.json';
+
+// Helepers
+import { truncateText } from '../../utils/helpers.js';
+
+// Variables
+const title = "RT-HUB - News"
+
+// Getting the slug from URL
+const slug = Astro.params.slug;
+
+// Data query
+const article = data.find((item) => item.slug === slug) || {
+    title: '',
+    slug: '',
+    imageUrl: '',
+    author: '',
+    updatedAt: '',
+    excerpt: '',
+    category: 'article',
+    body: '',
+    tags: [], 
+};
+---
+
+<Layout title={title}>
+	<main class="main">
+
+        <header class="section-container events-section-container">
+            <div class="section-wrapper pt-14">
+                <SectionHeader
+                    title="<strong>News</strong> & Articles"
+                    subtitle="Stay Informed, Stay Inspired"
+                />
+            </div>
+        </header>
+        
+        <section class="news-section light-theme py-24">
+            <div class="section-container news-section-container mb-24">
+                <div class="article-grid grid grid-cols-1 lg:grid-cols-4 gap-12">
+
+                    <div class="sidenav col-1 order-2 md:order-1 text-left lg:text-right">
+                        <div class="user-data mt-3 mb-10">
+                            <p class="text-sm mb-1">
+                                { article.category === "article" ? "Source: " : "By: " }
+                                <strong>{ article.author }</strong>
+                            </p>
+                            <p>Sep 26, 2023</p>
+                            <p>{ article.category }</p>
+                        </div>
+
+                        <SocialLinks />
+
+                    </div><!-- / Sidenav -->
+
+                    <div class="case-content col-1 lg:col-span-3 order-1 md:order-2">
+                        <header class="case-header mb-10">
+                            <h2 class="text-[36px] font-semibold mb-4">
+                                { article.title }
+                            </h2>
+                            <h2 class="text-[22px] font-light text-slate-500 mb-4">
+                                { article.excerpt }
+                            </h2>
+                        </header>
+
+                        <div class="article-body">
+                            <img src={`/images/news/${ article.imageUrl }`} alt={ article.title } class="w-full mb-12">
+
+                            <div class="article-text" class="">
+                                <p class="mb-4">{ article.body }</p>
+                                <p class="mb-4">{ article.body }</p>
+                                <p class="mb-4">{ article.body }</p>
+                            </div>
+                        </div>
+                    </div><!-- / Case content -->
+
+                </div>
+            </div>
+        </section>
+
+	</main>
+
+</Layout>
+
+<style>
+
+</style>
