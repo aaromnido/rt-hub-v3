@@ -4,7 +4,6 @@ import Layout from '../../layouts/Layout.astro';
 
 // Components
 import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
-import Separator from '../../components/Separator.astro';
 import SectionHeader from '../../components/SectionHeader.astro';
 import CardEvent from '../../components/CardEvent.astro';
 import data from '../../data/events-data.json';
@@ -24,7 +23,7 @@ let featuredEvent = data.slice(0, 1);
 <Layout title={title}>
     
     <div class="section-container events-section-container">
-        <div class="section-wrapper">
+        <div class="section-wrapper pt-14">
             <SectionHeader
                 title="Upcoming <strong>Events</strong> to Elevate Your Skills"
                 subtitle="Don't miss out on opportunities to learn, network, and grow"

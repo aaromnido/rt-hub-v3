@@ -1,0 +1,38 @@
+---
+// Components
+import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+
+// Helepers
+import { truncateText } from '../utils/helpers.js';
+
+// Component props
+interface Props {
+	title: string;
+	slug: string;
+	imageUrl: string;
+	author: string;
+	updatedAt: string;
+	category: string;
+	excerpt: string;
+	body: string;
+	tags: string[];
+}
+
+const { title, slug, imageUrl, author, updatedAt, category, excerpt, body, tags } = Astro.props;
+---
+
+<div class="card-item light-card">
+    <div class="image" style={`background-image: url('/images/news/${imageUrl}')`}></div>
+    <div class="container">
+
+        <div class="content">
+            <p class="article-date uppercase text-sm mb-3">{ updatedAt }</p>
+            <h4 class="article-title">{ truncateText(title, 68) }</h4>
+            <p class="article-description mt-3 text-sm h-24">{ truncateText(excerpt, 168) }</p>
+            <a class="secondary-button secondary-button-white secondary-button-outlined w-full mt-4" href=`/events/${slug}`>
+                View more <ArrowSmallRight class="w-6 h-6" />
+            </a>
+        </div>
+    </div>
+</div>
+
