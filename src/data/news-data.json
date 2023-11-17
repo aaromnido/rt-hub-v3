@@ -30,21 +30,6 @@
     ]
   },
   {
-    "title": "The New Breakthrough in Virtual Reality Transforms the Industry",
-    "slug": "the-new-breakthrough-in-virtual-reality-transforms-the-industry",
-    "imageUrl": "dummy-2.webp",
-    "author": "Kotaku",
-    "updatedAt": "Nov 13, 2023",
-    "excerpt": "A groundbreaking breakthrough in virtual reality technology promises to revolutionize the gaming experience, and much more than you might expect. This monumental advancement in VR technology has the potential to reshape how we perceive and engage with virtual worlds, elevating the gaming experience...",
-    "category": "article",
-    "body": "The latest innovation in virtual reality, presented at the VR World conference, offers an unprecedented level of immersion and interactivity for users. Beyond its impact on gaming, this breakthrough technology is poised to disrupt various industries, from healthcare to education and beyond. With its potential for remote training, virtual simulations, and immersive learning experiences, the possibilities are limitless. Step into a world where reality and virtuality blend seamlessly, and prepare to embrace a future where technology transcends boundaries.",
-    "tags": [
-      "Virtual Reality",
-      "Innovation",
-      "Technology"
-    ]
-  },
-  {
     "title": "Launch of the New Interactive 3D Console",
     "slug": "launch-of-the-new-interactive-3d-console",
     "imageUrl": "dummy-3.webp",
@@ -57,21 +42,6 @@
       "3D",
       "Consoles",
       "Gaming"
-    ]
-  },
-  {
-    "title": "The New Breakthrough in Virtual Reality Transforms the Industry",
-    "slug": "the-new-breakthrough-in-virtual-reality-transforms-the-industry",
-    "imageUrl": "dummy-4.webp",
-    "author": "Kotaku",
-    "updatedAt": "Nov 13, 2023",
-    "excerpt": "A new breakthrough in virtual reality technology promises to revolutionize the gaming experience.",
-    "category": "article",
-    "body": "The latest innovation in virtual reality, presented at the VR World conference, offers an unprecedented immersion with new interactive capabilities and enhanced graphics.",
-    "tags": [
-      "Virtual Reality",
-      "Innovation",
-      "Technology"
     ]
   },
   {
@@ -192,6 +162,36 @@
       "Role-Playing Games",
       "3D Games",
       "Gaming Experience"
+    ]
+  },
+  {
+    "title": "Persona 5 Tactica Tries To Make Up For The Series’ Homophobia",
+    "slug": "persona-5-tactica-tries-to-make-up-for-the-series-homophobia",
+    "imageUrl": "dummy-1.webp",
+    "author": "Kotaku",
+    "updatedAt": "Nov 12, 2023",
+    "excerpt": "Despite still leaving room for improvement, Halo Infinite’s latest season revolutionizes the game. It’s no secret that Halo Infinite has had a tumultuous development journey, with fans eagerly anticipating its release and closely following each development milestone. While the game's journey has been filled...",
+    "category": "article",
+    "body": "The gaming industry has witnessed its fair share of eagerly awaited releases, but few have generated as much anticipation as Halo Infinite. After a somewhat rocky development journey, the latest season of the game promises to be a game-changer for the series and the entire gaming community. With a renewed focus on player engagement, innovative gameplay mechanics, and breathtaking visuals, Halo Infinite's latest season aims to deliver an unforgettable gaming experience that redefines the franchise's legacy. Join us on a journey through the game's development and explore the exciting features that await players in this groundbreaking season.",
+    "tags": [
+      "Real Time",
+      "Business",
+      "Unity"
+    ]
+  },
+  {
+    "title": "RT-HUB: Making Online Learning Easier",
+    "slug": "rt-hub-making-online-learning-easier",
+    "imageUrl": "dummy-12.webp",
+    "author": "CNET",
+    "updatedAt": "Nov 27, 2023",
+    "excerpt": "RT-HUB has become the preferred platform for students worldwide. With its intuitive approach and diverse content, RT-HUB has won the hearts of students of all ages looking to learn online. technology showcased at the recent GDC conference. Video game developers from around the world...",
+    "category": "article",
+    "body": "RT-HUB has solidified its position as the go-to platform for online learning, garnering a global following of students. Its intuitive approach to education, combined with a rich variety of content, has captured the hearts and minds of learners of all ages who seek to acquire knowledge online. Join the ever-growing community of RT-HUB users and discover how this platform is simplifying the journey of online learning, making education accessible to all.",
+    "tags": [
+      "RT-HUB",
+      "Online Education",
+      "Learning Platform"
     ]
   }
 ]

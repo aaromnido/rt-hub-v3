@@ -1,5 +1,9 @@
 ---
+// Components
 import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+
+// Helepers
+import { truncateText } from '../utils/helpers.js';
 
 interface Props {
 	company: string;
@@ -31,9 +35,9 @@ const { company, logoUrl, country, city, date, title, slug, excerpt, tags } = As
             <p class="uppercase text-sm mb-3">
                 { date }
             </p>
-            <h4 class="mb-0">{ title }</h4>
+            <h4 class="mb-0">{ truncateText(title, 100) }</h4>
             <p class="description text-sm">
-             { excerpt }   
+             { truncateText(excerpt, 170) }   
             </p>
             <!-- Button -->
             <a class="secondary-button secondary-button-white secondary-button-outlined w-full mt-4" href=`/events/${slug}`>

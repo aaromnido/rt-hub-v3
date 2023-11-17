@@ -1,5 +1,9 @@
 ---
+// Components
 import ArrowSmallRight from 'astro-heroicons/outline/ArrowSmallRight.astro';
+
+// Helepers
+import { truncateText } from '../utils/helpers.js';
 
 interface Props {
 	title: string;
@@ -17,9 +21,9 @@ const { title, slug, thumbnailURL, shortDescription, difficulty } = Astro.props;
     <div class="wrapper">
        <div class="image" style={'background-image: url(' + thumbnailURL + ')'}></div>
        <div class="container">
-           <h4>{title}</h4>
+           <h4>{ truncateText(title, 66) }</h4>
            <p class="description mt-3 text-base">
-            {shortDescription}
+            { truncateText(shortDescription, 136) }
            </p>
            <p class="mb-4 font-medium uppercase text-sm">
             DIFICULTY: <strong>{difficulty}</strong>

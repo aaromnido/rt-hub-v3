@@ -3,50 +3,50 @@
       "title": "NVIDIA Labs at UT-HUB Nerf Edition",
       "slug": "nvidia-labs-at-ut-hub-nerf-edition",
       "thumbnailURL": "bootcamp-nvidia.png",
-      "shortDescription": "Unity Unite Berlin offers a unique blend of educational sessions and interactive workshops. Discover Unity latest features.",
+      "shortDescription": "Embark on a week of total immersion in the world of NERF and UNREAL ENGINE, fusing creativity and storytelling to develop unique cinematics. We will explore the inclusion of AI in CGI processes, combining real elements with virtual worlds.",
       "difficulty": "Intiation"
     },
     {
       "title": "Epic Bootcamp Animation 2023 - Europe",
       "slug": "epic-bootcamp-animation-2023-europe",
       "thumbnailURL": "bootcamp-europe.png",
-      "shortDescription": "Unity Unite Berlin offers a unique blend of educational sessions and interactive workshops. Discover Unity latest features.",
+      "shortDescription": "Real-time animation has become a reality thanks to technological advancements and the evolution of animation tools within Unreal Engine. In addition to enabling greater interactivity and instant feedback, this results in more efficient and collaborative production.",
       "difficulty": "Intiation"
     },
     {
-      "title": "Epic Bootcamp Animation 2023 - LatLATAMam",
+      "title": "Epic Bootcamp Animation 2023 - LATAM",
       "slug": "epic-bootcamp-animation-2023-latam",
       "thumbnailURL": "bootcamp-latam.png",
-      "shortDescription": "Unity Unite Berlin offers a unique blend of educational sessions and interactive workshops. Discover Unity latest features.",
+      "shortDescription": "Real-time animation has become a reality thanks to technological improvements and the evolution of animation tools within Unreal Engine. In addition to allowing greater interactivity and instant feedback, resulting in a more efficient and collaborative production.",
       "difficulty": "Intiation"
     },
     {
       "title": "Advanced 3D Modeling with Blender",
       "slug": "advanced-3d-modeling-with-blender",
       "thumbnailURL": "dummy-2.webp",
-      "shortDescription": "Master the art of 3D modeling with Blender. Create stunning 3D models and animations.",
+      "shortDescription": "Become a master of 3D modeling with Blender, the industry-leading software for creating stunning 3D models and animations. Whether you're a seasoned artist or just starting your journey in the world of 3D modeling, this course will take your skills to the next level. Explore advanced techniques, learn to sculpt intricate details, and bring your imagination to life in the digital realm. Join us on a creative adventure where you'll unleash your artistic potential and craft breathtaking 3D worlds.",
       "difficulty": "Intermediate"
     },
     {
       "title": "Game Development Fundamentals",
       "slug": "game-development-fundamentals",
       "thumbnailURL": "dummy-3.webp",
-      "shortDescription": "Learn the basics of game development and start building your own games from scratch.",
+      "shortDescription": "Embark on a thrilling journey into the world of game development. Whether you're a complete beginner or have some coding experience, this course will equip you with the fundamental skills to create your own games from scratch. Dive into the exciting universe of game design, learn to code interactive gameplay, and watch your game ideas come to life. Get ready to unleash your creativity, challenge your problem-solving abilities, and join the ranks of aspiring game developers in this beginner-friendly adventure.",
       "difficulty": "Beginner"
     },
     {
       "title": "Web Development Bootcamp",
       "slug": "web-development-bootcamp",
       "thumbnailURL": "dummy-4.webp",
-      "shortDescription": "Become a proficient web developer with this intensive bootcamp. Build real-world web applications.",
+      "shortDescription": "Transform into a proficient web developer through this intensive bootcamp. Dive deep into the world of web development, gain hands-on experience, and build real-world web applications from the ground up. Whether you're a coding enthusiast or aiming to switch careers, this bootcamp equips you with the skills demanded by the tech industry. Master the art of front-end and back-end development, create dynamic and responsive websites, and launch your career as a web developer with confidence. Join us on this coding journey and unlock a world of opportunities in the digital realm.",
       "difficulty": "Intermediate"
     },
     {
       "title": "Artificial Intelligence in Python",
       "slug": "artificial-intelligence-in-python",
       "thumbnailURL": "dummy-1.webp",
-      "shortDescription": "Explore the world of AI with Python. Develop AI-powered applications and algorithms.",
+      "shortDescription": "Embark on an exhilarating journey into the fascinating world of artificial intelligence with Python as your guide. This advanced course is designed for those ready to delve deep into the realms of AI development. Harness the power of Python to create AI-powered applications, develop cutting-edge algorithms, and explore the endless possibilities of machine learning and neural networks. Whether you're a data scientist, programmer, or AI enthusiast, this course will empower you to shape the future with intelligent and innovative AI solutions. Join us on this thrilling adventure and become a pioneer in AI development.",
       "difficulty": "Advanced"
-    }
+    }    
   ]
   
